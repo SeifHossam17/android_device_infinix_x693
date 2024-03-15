@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/Infinix-X693
+LOCAL_PATH := device/infinix/X693
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -16,10 +16,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Infinix-X693 device
-$(call inherit-product, device/infinix/Infinix-X693/device.mk)
+$(call inherit-product, device/infinix/X693/device.mk)
 
-PRODUCT_DEVICE := Infinix-X693
-PRODUCT_NAME := twrp_Infinix-X693
+PRODUCT_DEVICE := X693
+PRODUCT_NAME := twrp_X693
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X693
 PRODUCT_MANUFACTURER := infinix
